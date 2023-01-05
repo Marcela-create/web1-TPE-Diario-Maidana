@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="icon" href="img/favicon.ico">
+        <title>"Diario El Nacional"</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/0c2a72bcb1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div>
+                    <img class="LOGO" src="img/EN mediano.jpg"> 
+                </div>
+                <div class="titular">
+                    <h1> DIARIO EL NACIONAL</h1>
+                    <ul>
+                        <li><a href="index.html"><p>Home</p></a></li>
+                        <li><a href="politica.html"><p>Noticias políticas</p></a></li>
+                        <li><a href="deportes.html"> <p>Noticias deportivas</p></a></li>
+                        <li><a href="registrarse.html"><p> Regístrese</p></a></li>
+                        <li><a href="sucursales.html"> <p> Sucursales</p></a></li>
+                        <li><a href="espectaculos.html"><p> Espectaculos </p></a></li>         
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div>
+            <h2>FORMULARIO DE REGISTRO</h2>
+            <h2>¡Registrate y participa en sorteo por un curso de TIC con salida laboral!</h2>
+        </div>
+        <section class="form-register">
+            <form action="" method="post">
+                <div class="formulario">
+                    <label for="Name">Nombre</label>
+                    <input type="text" name="Name">
+                </div>
+                <div class="formulario">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" name="Apellido">
+                </div>
+                <div class="formulario">
+                    <label for="Domicilio">calle</label>
+                    <input type="text" name="Domicilio">
+                </div>
+                <div class="formulario">
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" name="ciudad">
+                </div>
+                <div class="formulario">
+                    <label for="codigopostal">Cocdigo postal</label>
+                    <input type="text" name="codigopostal">
+                </div>
+                <div class="formulario">
+                    <label for="telefono">Telefono</label>
+                    <input type="numero" name="telefono">
+                </div>
+                <div class="formulario">
+                    <label for="fechanac">Fecha de nacimiento</label>
+                    <input type="numero" name="fechanac">
+                </div>
+                <div class="formulario">
+                    <label for="email">Email</label>
+                    <input type="text" name="email">
+                </div>
+                <div>
+                    <label>Género</label>
+                        <div class="opciones">Hombre</div>
+                            <input type="radio" name="mujer" value="Hombre">
+                        <div class="opciones">Mujer</div>
+                            <input type="radio" name="mujer" value="Mujer">
+                        <div class="opciones">Otro</div>
+                            <input type="radio" name="mujer" value="Otro">
+                </div>
+                <div>
+                    <label for="experiencia">Conocimientos previos</label>
+                        <div class="opciones">html</div>
+                            <input type="checkbox" value="html">
+                        <div class="opciones">css</div>
+                            <input type="checkbox" value="css">
+                        <div class="opciones">boostrap</div>
+                            <input type="checkbox" value="boostrap">
+                        <div class="opciones">Javascript</div>
+                            <input type="checkbox" value="Javascript"> 
+                        <div class="opciones">Typescript</div>
+                            <input type="checkbox" value="Typescript"> 
+                        <div class="opciones">Angular</div>
+                            <input type="checkbox" value="Angular"> 
+                        <div class="opciones">Base de datos</div>
+                            <input type="checkbox" value="Base de datos"> 
+                </div>
+                <div class="opciones">
+                    <label for="nivelestudios">Estudios</label>
+                    <select name="select">
+                        <option value="value1" selected>primario</option>
+                        <option value="value2" selected>secundario</option>
+                        <option value="value3" selected>universitario</option> 
+                    </select>
+                </div>
+                <div class="formularioComentario">
+                    <p><textarea name="comentario" rows="5" cols="50">Escribe tu comentario </textarea></p>
+                </div class="formularioTerminos">
+                <label>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></label>
+                    <div class="opciones">
+                        <input id="terminosCondiciones" type="checkbox" name="acepta"> 
+                    </div>
+                <div class="formularioNumeros" id="captchaNumeros"></div>
+                <div class="formularioResultado">
+                    <label>Escriba el resultado de la suma</label>
+                    <input id="captchaResultado" type="text"> 
+                </div>
+                <div>
+                    <input id="btnEnviar" type="button" value="Enviar"/>
+                    <input type="button" value="Borrar"/>
+                </div>
+            </form>  
+        </section>
+            <script src="js/main.js"></script>       
+        <footer>
+            <p>EL NACIONAL,1° DE SEPTIEMBRE AÑO 2022</p>
+            <p>Derechos reservados @ 2022</p>
+            <div class="iconos">
+                <a href="pagina de facebook"><i class="fa-brands fa-facebook "></i></a>
+                <a href="pagina de twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="pagina de instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>
